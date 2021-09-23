@@ -10,7 +10,7 @@ setup(name='tap-copper',
       classifiers=['Programming Language :: Python :: 3 :: Only'],
       py_modules=['tap_copper'],
       install_requires=[
-          'tap-framework==0.0.4',
+          'tap-framework>=0.0.4',
       ],
       extras_require={
         'dev': [
